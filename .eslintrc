@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "no-console": 0,
+    "import/no-amd": 0,
+    "import/no-dynamic-require": 0,
+    "global-require": 0
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "sessionStorage": true,
+    "define": true,
+    "require": true
+  }
+}

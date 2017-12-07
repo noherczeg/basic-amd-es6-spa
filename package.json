@@ -1,0 +1,26 @@
+{
+  "name": "basic-amd-es6-spa",
+  "version": "1.0.0",
+  "description": "A basic SPA implementation built on top of RequireJS and ES6 specs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noherczeg/basic-amd-es6-spa.git"
+  },
+  "author": "Norbert Csaba Herczeg <noherczeg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noherczeg/basic-amd-es6-spa/issues"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
